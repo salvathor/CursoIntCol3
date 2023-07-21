@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var containerShareBtn: UIView!
     @IBOutlet weak var userpassword: UITextField!
     @IBOutlet weak var username: UITextField!
     
@@ -23,6 +24,14 @@ class ViewController: UIViewController {
         myBtn.setTitle("OK", for: .normal)
         myView.addSubview(myBtn)
         myBtn.addTarget(self, action: #selector(doSomething), for: .touchUpInside)*/
+        
+        //MARK: XIBs
+        let shareBtn = Bundle.main.loadNibNamed("ShareBtn", owner: self)?.first as? ShareBtn
+        shareBtn?.frame = CGRect(x: 0, y: 0, width: 120, height: 35)
+        shareBtn?.textShareBtn.text = "Compartir"
+        containerShareBtn.addSubview(shareBtn!)
+        //self.view.addSubview(shareBtn!)
+        
     }
 
     /*@objc func doSomething(){

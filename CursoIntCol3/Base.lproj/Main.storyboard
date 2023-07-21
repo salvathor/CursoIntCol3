@@ -64,12 +64,18 @@
                                     <action selector="forzarSegue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sJK-Pb-G3r"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DWE-Gs-qSd">
+                                <rect key="frame" x="139" y="768" width="120" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="Bienvenido" id="8rv-jS-Xd8"/>
                     <connections>
+                        <outlet property="containerShareBtn" destination="DWE-Gs-qSd" id="Ypq-f1-5Nb"/>
                         <outlet property="username" destination="CNu-aw-haU" id="RWT-Pg-QOF"/>
                         <outlet property="userpassword" destination="HSh-6H-P29" id="CpQ-gb-KfW"/>
                     </connections>
@@ -103,6 +109,20 @@
                                     <action selector="salirAct:" destination="Ljv-5n-5vC" eventType="touchUpInside" id="xNG-7n-TGo"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3S5-g4-y1U">
+                                <rect key="frame" x="142" y="409" width="109" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Empleados"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fQM-gi-GJY">
+                                <rect key="frame" x="148" y="452" width="98" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Cobranza"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="qVT-iw-vOf"/>
                         <color key="backgroundColor" systemColor="systemGreenColor"/>
@@ -130,7 +150,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TGz-46-YGv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2819" y="592"/>
+            <point key="canvasLocation" x="2819" y="515"/>
         </scene>
         <!--Registro-->
         <scene sceneID="4NP-e6-V14">
@@ -210,6 +230,9 @@
         </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

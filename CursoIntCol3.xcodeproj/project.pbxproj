@@ -17,6 +17,9 @@
 		CDFF1D472A6831B30064BDCE /* MyDataStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFF1D462A6831B30064BDCE /* MyDataStruct.swift */; };
 		CDFF1D492A6835CF0064BDCE /* VCForgotPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFF1D482A6835CF0064BDCE /* VCForgotPass.swift */; };
 		CDFF1D4B2A683B020064BDCE /* VCRegistro.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFF1D4A2A683B020064BDCE /* VCRegistro.swift */; };
+		CDFF1D932A6AAC830064BDCE /* ShareBtn.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDFF1D922A6AAC830064BDCE /* ShareBtn.xib */; };
+		CDFF1D952A6AAEB50064BDCE /* ShareBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFF1D942A6AAEB50064BDCE /* ShareBtn.swift */; };
+		CDFF1D972A6AB3CD0064BDCE /* Accesos.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFF1D962A6AB3CD0064BDCE /* Accesos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		CDFF1D462A6831B30064BDCE /* MyDataStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDataStruct.swift; sourceTree = "<group>"; };
 		CDFF1D482A6835CF0064BDCE /* VCForgotPass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCForgotPass.swift; sourceTree = "<group>"; };
 		CDFF1D4A2A683B020064BDCE /* VCRegistro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCRegistro.swift; sourceTree = "<group>"; };
+		CDFF1D922A6AAC830064BDCE /* ShareBtn.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShareBtn.xib; sourceTree = "<group>"; };
+		CDFF1D942A6AAEB50064BDCE /* ShareBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareBtn.swift; sourceTree = "<group>"; };
+		CDFF1D962A6AB3CD0064BDCE /* Accesos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accesos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,9 +73,12 @@
 				CDFF1D302A680E540064BDCE /* AppDelegate.swift */,
 				CDFF1D322A680E540064BDCE /* SceneDelegate.swift */,
 				CDFF1D342A680E540064BDCE /* ViewController.swift */,
+				CDFF1D962A6AB3CD0064BDCE /* Accesos.swift */,
 				CDFF1D462A6831B30064BDCE /* MyDataStruct.swift */,
 				CDFF1D442A682A190064BDCE /* VCLogin.swift */,
 				CDFF1D362A680E540064BDCE /* Main.storyboard */,
+				CDFF1D922A6AAC830064BDCE /* ShareBtn.xib */,
+				CDFF1D942A6AAEB50064BDCE /* ShareBtn.swift */,
 				CDFF1D4A2A683B020064BDCE /* VCRegistro.swift */,
 				CDFF1D482A6835CF0064BDCE /* VCForgotPass.swift */,
 				CDFF1D392A680E550064BDCE /* Assets.xcassets */,
@@ -137,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDFF1D932A6AAC830064BDCE /* ShareBtn.xib in Resources */,
 				CDFF1D3D2A680E550064BDCE /* LaunchScreen.storyboard in Resources */,
 				CDFF1D3A2A680E550064BDCE /* Assets.xcassets in Resources */,
 				CDFF1D382A680E540064BDCE /* Main.storyboard in Resources */,
@@ -150,12 +160,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDFF1D952A6AAEB50064BDCE /* ShareBtn.swift in Sources */,
 				CDFF1D492A6835CF0064BDCE /* VCForgotPass.swift in Sources */,
 				CDFF1D352A680E540064BDCE /* ViewController.swift in Sources */,
 				CDFF1D312A680E540064BDCE /* AppDelegate.swift in Sources */,
 				CDFF1D472A6831B30064BDCE /* MyDataStruct.swift in Sources */,
 				CDFF1D4B2A683B020064BDCE /* VCRegistro.swift in Sources */,
 				CDFF1D452A682A190064BDCE /* VCLogin.swift in Sources */,
+				CDFF1D972A6AB3CD0064BDCE /* Accesos.swift in Sources */,
 				CDFF1D332A680E540064BDCE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
