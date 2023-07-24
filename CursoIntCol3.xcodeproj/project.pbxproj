@@ -31,6 +31,7 @@
 		CDFF1DF62A6EC72F0064BDCE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFF1DF52A6EC72F0064BDCE /* ContentView.swift */; };
 		CDFF1DF82A6EC7310064BDCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDFF1DF72A6EC7310064BDCE /* Assets.xcassets */; };
 		CDFF1DFB2A6EC7310064BDCE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDFF1DFA2A6EC7310064BDCE /* Preview Assets.xcassets */; };
+		CDFF1E002A6ECAE10064BDCE /* TipCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFF1DFF2A6ECAE10064BDCE /* TipCalculatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		CDFF1DF52A6EC72F0064BDCE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CDFF1DF72A6EC7310064BDCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDFF1DFA2A6EC7310064BDCE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CDFF1DFF2A6ECAE10064BDCE /* TipCalculatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 			children = (
 				CDFF1DF32A6EC72F0064BDCE /* TipCalculatorApp.swift */,
 				CDFF1DF52A6EC72F0064BDCE /* ContentView.swift */,
+				CDFF1DFF2A6ECAE10064BDCE /* TipCalculatorModel.swift */,
 				CDFF1DF72A6EC7310064BDCE /* Assets.xcassets */,
 				CDFF1DF92A6EC7310064BDCE /* Preview Content */,
 			);
@@ -327,6 +330,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDFF1E002A6ECAE10064BDCE /* TipCalculatorModel.swift in Sources */,
 				CDFF1DF62A6EC72F0064BDCE /* ContentView.swift in Sources */,
 				CDFF1DF42A6EC72F0064BDCE /* TipCalculatorApp.swift in Sources */,
 			);
