@@ -27,6 +27,10 @@
 		CDFF1DAC2A6ACD060064BDCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDFF1DAB2A6ACD060064BDCE /* Assets.xcassets */; };
 		CDFF1DAF2A6ACD060064BDCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDFF1DAD2A6ACD060064BDCE /* LaunchScreen.storyboard */; };
 		CDFF1DB52A6AD6510064BDCE /* example.txt in Resources */ = {isa = PBXBuildFile; fileRef = CDFF1DB42A6AD6510064BDCE /* example.txt */; };
+		CDFF1DF42A6EC72F0064BDCE /* TipCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFF1DF32A6EC72F0064BDCE /* TipCalculatorApp.swift */; };
+		CDFF1DF62A6EC72F0064BDCE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFF1DF52A6EC72F0064BDCE /* ContentView.swift */; };
+		CDFF1DF82A6EC7310064BDCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDFF1DF72A6EC7310064BDCE /* Assets.xcassets */; };
+		CDFF1DFB2A6EC7310064BDCE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDFF1DFA2A6EC7310064BDCE /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +59,11 @@
 		CDFF1DB02A6ACD060064BDCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDFF1DB42A6AD6510064BDCE /* example.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = example.txt; sourceTree = "<group>"; };
 		CDFF1DB62A6EA4B30064BDCE /* PropiedadComputada.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PropiedadComputada.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CDFF1DF12A6EC72F0064BDCE /* TipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDFF1DF32A6EC72F0064BDCE /* TipCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorApp.swift; sourceTree = "<group>"; };
+		CDFF1DF52A6EC72F0064BDCE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CDFF1DF72A6EC7310064BDCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDFF1DFA2A6EC7310064BDCE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +81,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CDFF1DEE2A6EC72F0064BDCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -80,6 +96,7 @@
 			children = (
 				CDFF1D2F2A680E540064BDCE /* CursoIntCol3 */,
 				CDFF1DA12A6ACD030064BDCE /* CompartirContenido */,
+				CDFF1DF22A6EC72F0064BDCE /* TipCalculator */,
 				CDFF1D2E2A680E540064BDCE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,6 +106,7 @@
 			children = (
 				CDFF1D2D2A680E540064BDCE /* CursoIntCol3.app */,
 				CDFF1DA02A6ACD030064BDCE /* CompartirContenido.app */,
+				CDFF1DF12A6EC72F0064BDCE /* TipCalculator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,6 +148,25 @@
 			path = CompartirContenido;
 			sourceTree = "<group>";
 		};
+		CDFF1DF22A6EC72F0064BDCE /* TipCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				CDFF1DF32A6EC72F0064BDCE /* TipCalculatorApp.swift */,
+				CDFF1DF52A6EC72F0064BDCE /* ContentView.swift */,
+				CDFF1DF72A6EC7310064BDCE /* Assets.xcassets */,
+				CDFF1DF92A6EC7310064BDCE /* Preview Content */,
+			);
+			path = TipCalculator;
+			sourceTree = "<group>";
+		};
+		CDFF1DF92A6EC7310064BDCE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CDFF1DFA2A6EC7310064BDCE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,6 +204,23 @@
 			productReference = CDFF1DA02A6ACD030064BDCE /* CompartirContenido.app */;
 			productType = "com.apple.product-type.application";
 		};
+		CDFF1DF02A6EC72F0064BDCE /* TipCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDFF1DFC2A6EC7310064BDCE /* Build configuration list for PBXNativeTarget "TipCalculator" */;
+			buildPhases = (
+				CDFF1DED2A6EC72F0064BDCE /* Sources */,
+				CDFF1DEE2A6EC72F0064BDCE /* Frameworks */,
+				CDFF1DEF2A6EC72F0064BDCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TipCalculator;
+			productName = TipCalculator;
+			productReference = CDFF1DF12A6EC72F0064BDCE /* TipCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -181,6 +235,9 @@
 						CreatedOnToolsVersion = 14.3.1;
 					};
 					CDFF1D9F2A6ACD030064BDCE = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					CDFF1DF02A6EC72F0064BDCE = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
@@ -200,6 +257,7 @@
 			targets = (
 				CDFF1D2C2A680E540064BDCE /* CursoIntCol3 */,
 				CDFF1D9F2A6ACD030064BDCE /* CompartirContenido */,
+				CDFF1DF02A6EC72F0064BDCE /* TipCalculator */,
 			);
 		};
 /* End PBXProject section */
@@ -224,6 +282,15 @@
 				CDFF1DB52A6AD6510064BDCE /* example.txt in Resources */,
 				CDFF1DAC2A6ACD060064BDCE /* Assets.xcassets in Resources */,
 				CDFF1DAA2A6ACD030064BDCE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDFF1DEF2A6EC72F0064BDCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFF1DFB2A6EC7310064BDCE /* Preview Assets.xcassets in Resources */,
+				CDFF1DF82A6EC7310064BDCE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +320,15 @@
 				CDFF1DA72A6ACD030064BDCE /* ViewController.swift in Sources */,
 				CDFF1DA32A6ACD030064BDCE /* AppDelegate.swift in Sources */,
 				CDFF1DA52A6ACD030064BDCE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDFF1DED2A6EC72F0064BDCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFF1DF62A6EC72F0064BDCE /* ContentView.swift in Sources */,
+				CDFF1DF42A6EC72F0064BDCE /* TipCalculatorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,6 +602,64 @@
 			};
 			name = Release;
 		};
+		CDFF1DFD2A6EC7310064BDCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TipCalculator/Preview Content\"";
+				DEVELOPMENT_TEAM = FNTB26538C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jslopez.TipCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDFF1DFE2A6EC7310064BDCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TipCalculator/Preview Content\"";
+				DEVELOPMENT_TEAM = FNTB26538C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jslopez.TipCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -552,6 +686,15 @@
 			buildConfigurations = (
 				CDFF1DB22A6ACD060064BDCE /* Debug */,
 				CDFF1DB32A6ACD060064BDCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDFF1DFC2A6EC7310064BDCE /* Build configuration list for PBXNativeTarget "TipCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDFF1DFD2A6EC7310064BDCE /* Debug */,
+				CDFF1DFE2A6EC7310064BDCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
