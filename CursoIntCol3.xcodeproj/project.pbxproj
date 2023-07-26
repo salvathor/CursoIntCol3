@@ -32,6 +32,12 @@
 		CDFF1DF82A6EC7310064BDCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDFF1DF72A6EC7310064BDCE /* Assets.xcassets */; };
 		CDFF1DFB2A6EC7310064BDCE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDFF1DFA2A6EC7310064BDCE /* Preview Assets.xcassets */; };
 		CDFF1E002A6ECAE10064BDCE /* TipCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFF1DFF2A6ECAE10064BDCE /* TipCalculatorModel.swift */; };
+		CDFF1E082A6ED5290064BDCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFF1E072A6ED5290064BDCE /* AppDelegate.swift */; };
+		CDFF1E0A2A6ED5290064BDCE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFF1E092A6ED5290064BDCE /* SceneDelegate.swift */; };
+		CDFF1E0C2A6ED5290064BDCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFF1E0B2A6ED5290064BDCE /* ViewController.swift */; };
+		CDFF1E0F2A6ED5290064BDCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDFF1E0D2A6ED5290064BDCE /* Main.storyboard */; };
+		CDFF1E112A6ED52C0064BDCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDFF1E102A6ED52C0064BDCE /* Assets.xcassets */; };
+		CDFF1E142A6ED52C0064BDCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDFF1E122A6ED52C0064BDCE /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +72,15 @@
 		CDFF1DF72A6EC7310064BDCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDFF1DFA2A6EC7310064BDCE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CDFF1DFF2A6ECAE10064BDCE /* TipCalculatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorModel.swift; sourceTree = "<group>"; };
+		CDFF1E052A6ED5290064BDCE /* CosumoREST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CosumoREST.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDFF1E072A6ED5290064BDCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDFF1E092A6ED5290064BDCE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CDFF1E0B2A6ED5290064BDCE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDFF1E0E2A6ED5290064BDCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDFF1E102A6ED52C0064BDCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDFF1E132A6ED52C0064BDCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDFF1E152A6ED52C0064BDCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDFF1E192A6ED5960064BDCE /* JsonSerializationExample.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = JsonSerializationExample.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +105,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CDFF1E022A6ED5290064BDCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -99,6 +121,7 @@
 				CDFF1D2F2A680E540064BDCE /* CursoIntCol3 */,
 				CDFF1DA12A6ACD030064BDCE /* CompartirContenido */,
 				CDFF1DF22A6EC72F0064BDCE /* TipCalculator */,
+				CDFF1E062A6ED5290064BDCE /* CosumoREST */,
 				CDFF1D2E2A680E540064BDCE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -109,6 +132,7 @@
 				CDFF1D2D2A680E540064BDCE /* CursoIntCol3.app */,
 				CDFF1DA02A6ACD030064BDCE /* CompartirContenido.app */,
 				CDFF1DF12A6EC72F0064BDCE /* TipCalculator.app */,
+				CDFF1E052A6ED5290064BDCE /* CosumoREST.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -170,6 +194,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		CDFF1E062A6ED5290064BDCE /* CosumoREST */ = {
+			isa = PBXGroup;
+			children = (
+				CDFF1E072A6ED5290064BDCE /* AppDelegate.swift */,
+				CDFF1E092A6ED5290064BDCE /* SceneDelegate.swift */,
+				CDFF1E0B2A6ED5290064BDCE /* ViewController.swift */,
+				CDFF1E0D2A6ED5290064BDCE /* Main.storyboard */,
+				CDFF1E102A6ED52C0064BDCE /* Assets.xcassets */,
+				CDFF1E122A6ED52C0064BDCE /* LaunchScreen.storyboard */,
+				CDFF1E152A6ED52C0064BDCE /* Info.plist */,
+				CDFF1E192A6ED5960064BDCE /* JsonSerializationExample.playground */,
+			);
+			path = CosumoREST;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -224,6 +263,23 @@
 			productReference = CDFF1DF12A6EC72F0064BDCE /* TipCalculator.app */;
 			productType = "com.apple.product-type.application";
 		};
+		CDFF1E042A6ED5290064BDCE /* CosumoREST */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDFF1E162A6ED52C0064BDCE /* Build configuration list for PBXNativeTarget "CosumoREST" */;
+			buildPhases = (
+				CDFF1E012A6ED5290064BDCE /* Sources */,
+				CDFF1E022A6ED5290064BDCE /* Frameworks */,
+				CDFF1E032A6ED5290064BDCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CosumoREST;
+			productName = CosumoREST;
+			productReference = CDFF1E052A6ED5290064BDCE /* CosumoREST.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -241,6 +297,9 @@
 						CreatedOnToolsVersion = 14.3.1;
 					};
 					CDFF1DF02A6EC72F0064BDCE = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					CDFF1E042A6ED5290064BDCE = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
@@ -261,6 +320,7 @@
 				CDFF1D2C2A680E540064BDCE /* CursoIntCol3 */,
 				CDFF1D9F2A6ACD030064BDCE /* CompartirContenido */,
 				CDFF1DF02A6EC72F0064BDCE /* TipCalculator */,
+				CDFF1E042A6ED5290064BDCE /* CosumoREST */,
 			);
 		};
 /* End PBXProject section */
@@ -294,6 +354,16 @@
 			files = (
 				CDFF1DFB2A6EC7310064BDCE /* Preview Assets.xcassets in Resources */,
 				CDFF1DF82A6EC7310064BDCE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDFF1E032A6ED5290064BDCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFF1E142A6ED52C0064BDCE /* LaunchScreen.storyboard in Resources */,
+				CDFF1E112A6ED52C0064BDCE /* Assets.xcassets in Resources */,
+				CDFF1E0F2A6ED5290064BDCE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +406,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CDFF1E012A6ED5290064BDCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFF1E0C2A6ED5290064BDCE /* ViewController.swift in Sources */,
+				CDFF1E082A6ED5290064BDCE /* AppDelegate.swift in Sources */,
+				CDFF1E0A2A6ED5290064BDCE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -367,6 +447,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				CDFF1DAE2A6ACD060064BDCE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CDFF1E0D2A6ED5290064BDCE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDFF1E0E2A6ED5290064BDCE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDFF1E122A6ED52C0064BDCE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDFF1E132A6ED52C0064BDCE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -664,6 +760,62 @@
 			};
 			name = Release;
 		};
+		CDFF1E172A6ED52C0064BDCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FNTB26538C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CosumoREST/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jslopez.CosumoREST;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDFF1E182A6ED52C0064BDCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FNTB26538C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CosumoREST/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jslopez.CosumoREST;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -699,6 +851,15 @@
 			buildConfigurations = (
 				CDFF1DFD2A6EC7310064BDCE /* Debug */,
 				CDFF1DFE2A6EC7310064BDCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDFF1E162A6ED52C0064BDCE /* Build configuration list for PBXNativeTarget "CosumoREST" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDFF1E172A6ED52C0064BDCE /* Debug */,
+				CDFF1E182A6ED52C0064BDCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
