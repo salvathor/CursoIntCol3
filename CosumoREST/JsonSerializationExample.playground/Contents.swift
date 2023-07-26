@@ -113,6 +113,17 @@ if let jsonData = jsonString.data(using: .utf8){
             print(foundationObj)
             print(type(of: foundationObj))
             print(foundationObj["squadName"] ?? "No se encontro ningun elemento con el indice /'squadName/'")
+            if let membersDict = foundationObj["members"]{
+                dump(membersDict)
+                for i in membersDict as! [[String:Any]] {
+                    dump(i)
+                    /*if i.key == "name" {
+                        if i.value as! String == "Madame Uppercut"{
+                            dump(i)
+                        }
+                    }*/
+                }
+            }
         }
     }catch{
         print("Error: \(error)")
