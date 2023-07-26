@@ -176,3 +176,12 @@ do {
 }catch{
     print("Error: \(error)")
 }
+
+struct Login2: Codable, Identifiable{
+    var id = UUID()
+    var status : String
+    var message : String
+}
+
+var login2 = Login2(status: "Error", message: "Usuario no encontrado")
+dump(login2)
