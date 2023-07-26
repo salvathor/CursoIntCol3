@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CDB15B982A716DB30065D38E /* VCUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB15B972A716DB30065D38E /* VCUsers.swift */; };
+		CDB15B9A2A716FC80065D38E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB15B992A716FC80065D38E /* User.swift */; };
 		CDFF1D312A680E540064BDCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFF1D302A680E540064BDCE /* AppDelegate.swift */; };
 		CDFF1D332A680E540064BDCE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFF1D322A680E540064BDCE /* SceneDelegate.swift */; };
 		CDFF1D352A680E540064BDCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFF1D342A680E540064BDCE /* ViewController.swift */; };
@@ -41,6 +43,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CDB15B972A716DB30065D38E /* VCUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCUsers.swift; sourceTree = "<group>"; };
+		CDB15B992A716FC80065D38E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		CDFF1D2D2A680E540064BDCE /* CursoIntCol3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CursoIntCol3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDFF1D302A680E540064BDCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDFF1D322A680E540064BDCE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -201,6 +205,8 @@
 				CDFF1E092A6ED5290064BDCE /* SceneDelegate.swift */,
 				CDFF1E0B2A6ED5290064BDCE /* ViewController.swift */,
 				CDFF1E0D2A6ED5290064BDCE /* Main.storyboard */,
+				CDB15B972A716DB30065D38E /* VCUsers.swift */,
+				CDB15B992A716FC80065D38E /* User.swift */,
 				CDFF1E102A6ED52C0064BDCE /* Assets.xcassets */,
 				CDFF1E122A6ED52C0064BDCE /* LaunchScreen.storyboard */,
 				CDFF1E152A6ED52C0064BDCE /* Info.plist */,
@@ -413,6 +419,8 @@
 				CDFF1E0C2A6ED5290064BDCE /* ViewController.swift in Sources */,
 				CDFF1E082A6ED5290064BDCE /* AppDelegate.swift in Sources */,
 				CDFF1E0A2A6ED5290064BDCE /* SceneDelegate.swift in Sources */,
+				CDB15B9A2A716FC80065D38E /* User.swift in Sources */,
+				CDB15B982A716DB30065D38E /* VCUsers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
