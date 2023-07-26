@@ -1,5 +1,7 @@
 import UIKit
 
+//MARK: JSONSerialization
+
 let student = [
     "name":"Rogelio",
     "age":6
@@ -128,4 +130,49 @@ if let jsonData = jsonString.data(using: .utf8){
     }catch{
         print("Error: \(error)")
     }
+}
+
+//MARK: ENCODE AND DECODE (DECODABLES)
+
+struct Login: Codable{
+    var status : String
+    var message : String
+}
+
+//MARK: ENCODE
+
+let encoder = JSONEncoder()
+encoder.outputFormatting = .prettyPrinted
+
+var login = Login(status: "Ok", message: "Welcome Administrator")
+
+do {
+    let jsonData = try encoder.encode(login)
+    if let jsonStr = String(data: jsonData, encoding: .utf8){
+        print(jsonStr)
+    }
+}catch{
+    print("Error: \(error)")
+}
+
+//MARK: DECODE
+
+let decoder = JSONDecoder()
+
+var jsonStr = """
+
+{
+  "status" : "Ok",
+  "message" : "Welcome Administrator"
+}
+
+"""
+
+do {
+    let jsonData = jsonStr.data(using: .utf8)!
+    let login = try decoder.decode(Login.self, from: jsonData)
+    print("Status: \(login.status)")
+    print("Message: \(login.message)")
+}catch{
+    print("Error: \(error)")
 }
