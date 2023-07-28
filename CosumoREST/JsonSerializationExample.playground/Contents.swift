@@ -178,7 +178,7 @@ do {
 }
 
 struct Login2: Codable, Identifiable{
-    var id = UUID()
+    var id: UUID? = UUID()
     var status : String
     var message : String
 }

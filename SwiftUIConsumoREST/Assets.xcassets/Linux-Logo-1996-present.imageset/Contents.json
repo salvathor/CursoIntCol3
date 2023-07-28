@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Linux-Logo-1996-present.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
