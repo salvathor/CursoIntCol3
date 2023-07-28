@@ -16,6 +16,7 @@
 		CD3422452A73EDD600563173 /* DetailUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3422442A73EDD600563173 /* DetailUserView.swift */; };
 		CD75E6852A73F54400B35D26 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD75E6842A73F54400B35D26 /* WebViewController.swift */; };
 		CD75E6872A73FA3100B35D26 /* Practica4 in Resources */ = {isa = PBXBuildFile; fileRef = CD75E6862A73FA3100B35D26 /* Practica4 */; };
+		CD75E68B2A740EFE00B35D26 /* TryRestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD75E68A2A740EFE00B35D26 /* TryRestViewController.swift */; };
 		CDB15B982A716DB30065D38E /* VCUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB15B972A716DB30065D38E /* VCUsers.swift */; };
 		CDB15B9A2A716FC80065D38E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB15B992A716FC80065D38E /* User.swift */; };
 		CDFF1D312A680E540064BDCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFF1D302A680E540064BDCE /* AppDelegate.swift */; };
@@ -62,6 +63,7 @@
 		CD3422442A73EDD600563173 /* DetailUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailUserView.swift; sourceTree = "<group>"; };
 		CD75E6842A73F54400B35D26 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		CD75E6862A73FA3100B35D26 /* Practica4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Practica4; sourceTree = "<group>"; };
+		CD75E68A2A740EFE00B35D26 /* TryRestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryRestViewController.swift; sourceTree = "<group>"; };
 		CDB15B972A716DB30065D38E /* VCUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCUsers.swift; sourceTree = "<group>"; };
 		CDB15B992A716FC80065D38E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		CDFF1D2D2A680E540064BDCE /* CursoIntCol3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CursoIntCol3.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -256,6 +258,7 @@
 				CDFF1E092A6ED5290064BDCE /* SceneDelegate.swift */,
 				CDFF1E0B2A6ED5290064BDCE /* ViewController.swift */,
 				CDFF1E0D2A6ED5290064BDCE /* Main.storyboard */,
+				CD75E68A2A740EFE00B35D26 /* TryRestViewController.swift */,
 				CDB15B972A716DB30065D38E /* VCUsers.swift */,
 				CDB15B992A716FC80065D38E /* User.swift */,
 				CDFF1E102A6ED52C0064BDCE /* Assets.xcassets */,
@@ -515,6 +518,7 @@
 				CD75E6852A73F54400B35D26 /* WebViewController.swift in Sources */,
 				CDFF1E082A6ED5290064BDCE /* AppDelegate.swift in Sources */,
 				CDFF1E0A2A6ED5290064BDCE /* SceneDelegate.swift in Sources */,
+				CD75E68B2A740EFE00B35D26 /* TryRestViewController.swift in Sources */,
 				CDB15B9A2A716FC80065D38E /* User.swift in Sources */,
 				CDB15B982A716DB30065D38E /* VCUsers.swift in Sources */,
 			);
