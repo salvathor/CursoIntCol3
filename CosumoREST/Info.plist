@@ -10,10 +10,10 @@
 		<false/>
 		<key>NSExceptionDomains</key>
 		<dict>
-			<key>myDomain.com</key>
+			<key>www.aprendeinglessila.com</key>
 			<dict>
 				<key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
-				<false/>
+				<true/>
 			</dict>
 		</dict>
 	</dict>

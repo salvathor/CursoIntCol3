@@ -14,6 +14,8 @@
 		CD3422412A73E99600563173 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3422402A73E99600563173 /* DataManager.swift */; };
 		CD3422432A73EA2A00563173 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3422422A73EA2A00563173 /* User.swift */; };
 		CD3422452A73EDD600563173 /* DetailUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3422442A73EDD600563173 /* DetailUserView.swift */; };
+		CD75E6852A73F54400B35D26 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD75E6842A73F54400B35D26 /* WebViewController.swift */; };
+		CD75E6872A73FA3100B35D26 /* Practica4 in Resources */ = {isa = PBXBuildFile; fileRef = CD75E6862A73FA3100B35D26 /* Practica4 */; };
 		CDB15B982A716DB30065D38E /* VCUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB15B972A716DB30065D38E /* VCUsers.swift */; };
 		CDB15B9A2A716FC80065D38E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB15B992A716FC80065D38E /* User.swift */; };
 		CDFF1D312A680E540064BDCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFF1D302A680E540064BDCE /* AppDelegate.swift */; };
@@ -58,6 +60,8 @@
 		CD3422402A73E99600563173 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		CD3422422A73EA2A00563173 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		CD3422442A73EDD600563173 /* DetailUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailUserView.swift; sourceTree = "<group>"; };
+		CD75E6842A73F54400B35D26 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		CD75E6862A73FA3100B35D26 /* Practica4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Practica4; sourceTree = "<group>"; };
 		CDB15B972A716DB30065D38E /* VCUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCUsers.swift; sourceTree = "<group>"; };
 		CDB15B992A716FC80065D38E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		CDFF1D2D2A680E540064BDCE /* CursoIntCol3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CursoIntCol3.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -151,6 +155,7 @@
 				CD3422382A73E8F100563173 /* Assets.xcassets */,
 				CD34223A2A73E8F100563173 /* Preview Content */,
 				CD3422422A73EA2A00563173 /* User.swift */,
+				CD75E6862A73FA3100B35D26 /* Practica4 */,
 			);
 			path = SwiftUIConsumoREST;
 			sourceTree = "<group>";
@@ -257,6 +262,7 @@
 				CDFF1E122A6ED52C0064BDCE /* LaunchScreen.storyboard */,
 				CDFF1E152A6ED52C0064BDCE /* Info.plist */,
 				CDFF1E192A6ED5960064BDCE /* JsonSerializationExample.playground */,
+				CD75E6842A73F54400B35D26 /* WebViewController.swift */,
 			);
 			path = CosumoREST;
 			sourceTree = "<group>";
@@ -403,6 +409,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD75E6872A73FA3100B35D26 /* Practica4 in Resources */,
 				CD34223C2A73E8F100563173 /* Preview Assets.xcassets in Resources */,
 				CD3422392A73E8F100563173 /* Assets.xcassets in Resources */,
 			);
@@ -505,6 +512,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDFF1E0C2A6ED5290064BDCE /* ViewController.swift in Sources */,
+				CD75E6852A73F54400B35D26 /* WebViewController.swift in Sources */,
 				CDFF1E082A6ED5290064BDCE /* AppDelegate.swift in Sources */,
 				CDFF1E0A2A6ED5290064BDCE /* SceneDelegate.swift in Sources */,
 				CDB15B9A2A716FC80065D38E /* User.swift in Sources */,
