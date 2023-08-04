@@ -61,6 +61,12 @@
 		CDE4917E2A7D2BBE0061BE2F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE4917D2A7D2BBE0061BE2F /* Preview Assets.xcassets */; };
 		CDE491802A7D2BBE0061BE2F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE4917F2A7D2BBE0061BE2F /* Persistence.swift */; };
 		CDE491832A7D2BBE0061BE2F /* CoreDataSwiftUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDE491812A7D2BBE0061BE2F /* CoreDataSwiftUI.xcdatamodeld */; };
+		CDE4918E2A7D470A0061BE2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE4918D2A7D470A0061BE2F /* AppDelegate.swift */; };
+		CDE491902A7D470A0061BE2F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE4918F2A7D470A0061BE2F /* SceneDelegate.swift */; };
+		CDE491922A7D470A0061BE2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE491912A7D470A0061BE2F /* ViewController.swift */; };
+		CDE491952A7D470A0061BE2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE491932A7D470A0061BE2F /* Main.storyboard */; };
+		CDE491972A7D470C0061BE2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE491962A7D470C0061BE2F /* Assets.xcassets */; };
+		CDE4919A2A7D470C0061BE2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE491982A7D470C0061BE2F /* LaunchScreen.storyboard */; };
 		CDFF1D312A680E540064BDCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFF1D302A680E540064BDCE /* AppDelegate.swift */; };
 		CDFF1D332A680E540064BDCE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFF1D322A680E540064BDCE /* SceneDelegate.swift */; };
 		CDFF1D352A680E540064BDCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFF1D342A680E540064BDCE /* ViewController.swift */; };
@@ -161,6 +167,14 @@
 		CDE4917D2A7D2BBE0061BE2F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CDE4917F2A7D2BBE0061BE2F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		CDE491822A7D2BBE0061BE2F /* CoreDataSwiftUI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataSwiftUI.xcdatamodel; sourceTree = "<group>"; };
+		CDE4918B2A7D470A0061BE2F /* KeyChainSB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyChainSB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE4918D2A7D470A0061BE2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDE4918F2A7D470A0061BE2F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CDE491912A7D470A0061BE2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDE491942A7D470A0061BE2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDE491962A7D470C0061BE2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDE491992A7D470C0061BE2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDE4919B2A7D470C0061BE2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDFF1D2D2A680E540064BDCE /* CursoIntCol3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CursoIntCol3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDFF1D302A680E540064BDCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDFF1D322A680E540064BDCE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -254,6 +268,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		CDE491712A7D2BBC0061BE2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE491882A7D470A0061BE2F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -433,6 +454,20 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		CDE4918C2A7D470A0061BE2F /* KeyChainSB */ = {
+			isa = PBXGroup;
+			children = (
+				CDE4918D2A7D470A0061BE2F /* AppDelegate.swift */,
+				CDE4918F2A7D470A0061BE2F /* SceneDelegate.swift */,
+				CDE491912A7D470A0061BE2F /* ViewController.swift */,
+				CDE491932A7D470A0061BE2F /* Main.storyboard */,
+				CDE491962A7D470C0061BE2F /* Assets.xcassets */,
+				CDE491982A7D470C0061BE2F /* LaunchScreen.storyboard */,
+				CDE4919B2A7D470C0061BE2F /* Info.plist */,
+			);
+			path = KeyChainSB;
+			sourceTree = "<group>";
+		};
 		CDFF1D242A680E540064BDCE = {
 			isa = PBXGroup;
 			children = (
@@ -448,6 +483,7 @@
 				CD2856E62A7AA3E500A301F6 /* UserDefaultsSwiftUI */,
 				CD2856F82A7AAB9400A301F6 /* CoreDataSB */,
 				CDE491752A7D2BBC0061BE2F /* CoreDataSwiftUI */,
+				CDE4918C2A7D470A0061BE2F /* KeyChainSB */,
 				CDFF1D2E2A680E540064BDCE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -467,6 +503,7 @@
 				CD2856E52A7AA3E500A301F6 /* UserDefaultsSwiftUI.app */,
 				CD2856F72A7AAB9400A301F6 /* CoreDataSB.app */,
 				CDE491742A7D2BBC0061BE2F /* CoreDataSwiftUI.app */,
+				CDE4918B2A7D470A0061BE2F /* KeyChainSB.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -686,6 +723,23 @@
 			productReference = CDE491742A7D2BBC0061BE2F /* CoreDataSwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
+		CDE4918A2A7D470A0061BE2F /* KeyChainSB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDE4919C2A7D470C0061BE2F /* Build configuration list for PBXNativeTarget "KeyChainSB" */;
+			buildPhases = (
+				CDE491872A7D470A0061BE2F /* Sources */,
+				CDE491882A7D470A0061BE2F /* Frameworks */,
+				CDE491892A7D470A0061BE2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyChainSB;
+			productName = KeyChainSB;
+			productReference = CDE4918B2A7D470A0061BE2F /* KeyChainSB.app */;
+			productType = "com.apple.product-type.application";
+		};
 		CDFF1D2C2A680E540064BDCE /* CursoIntCol3 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CDFF1D412A680E550064BDCE /* Build configuration list for PBXNativeTarget "CursoIntCol3" */;
@@ -788,6 +842,9 @@
 					CDE491732A7D2BBC0061BE2F = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
+					CDE4918A2A7D470A0061BE2F = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
 					CDFF1D2C2A680E540064BDCE = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
@@ -827,6 +884,7 @@
 				CD2856E42A7AA3E500A301F6 /* UserDefaultsSwiftUI */,
 				CD2856F62A7AAB9400A301F6 /* CoreDataSB */,
 				CDE491732A7D2BBC0061BE2F /* CoreDataSwiftUI */,
+				CDE4918A2A7D470A0061BE2F /* KeyChainSB */,
 			);
 		};
 /* End PBXProject section */
@@ -906,6 +964,16 @@
 			files = (
 				CDE4917E2A7D2BBE0061BE2F /* Preview Assets.xcassets in Resources */,
 				CDE4917B2A7D2BBE0061BE2F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE491892A7D470A0061BE2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE4919A2A7D470C0061BE2F /* LaunchScreen.storyboard in Resources */,
+				CDE491972A7D470C0061BE2F /* Assets.xcassets in Resources */,
+				CDE491952A7D470A0061BE2F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1038,6 +1106,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CDE491872A7D470A0061BE2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE491922A7D470A0061BE2F /* ViewController.swift in Sources */,
+				CDE4918E2A7D470A0061BE2F /* AppDelegate.swift in Sources */,
+				CDE491902A7D470A0061BE2F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CDFF1D292A680E540064BDCE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1151,6 +1229,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				CDD5F9672A77F920008C95CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CDE491932A7D470A0061BE2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDE491942A7D470A0061BE2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDE491982A7D470C0061BE2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDE491992A7D470C0061BE2F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1664,6 +1758,62 @@
 			};
 			name = Release;
 		};
+		CDE4919D2A7D470C0061BE2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FNTB26538C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KeyChainSB/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jslopez.KeyChainSB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDE4919E2A7D470C0061BE2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FNTB26538C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KeyChainSB/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jslopez.KeyChainSB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		CDFF1D3F2A680E550064BDCE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2081,6 +2231,15 @@
 			buildConfigurations = (
 				CDE491842A7D2BBE0061BE2F /* Debug */,
 				CDE491852A7D2BBE0061BE2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDE4919C2A7D470C0061BE2F /* Build configuration list for PBXNativeTarget "KeyChainSB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE4919D2A7D470C0061BE2F /* Debug */,
+				CDE4919E2A7D470C0061BE2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
