@@ -9,77 +9,131 @@ import SwiftUI
 import CoreData
 
 struct ContentView: View {
+    
     @Environment(\.managedObjectContext) private var viewContext
-
     @FetchRequest(
-        sortDescriptors: [NSSortDescriptor(keyPath: \Item.timestamp, ascending: true)],
+        sortDescriptors: [NSSortDescriptor(keyPath: \User.id, ascending: true)],
         animation: .default)
-    private var items: FetchedResults<Item>
-
+    
+    private var users: FetchedResults<User>
+    
+    @State var id: UUID!
+    @State var username: String = ""
+    @State var email: String = ""
+    @State var password: String = ""
+    
     var body: some View {
-        NavigationView {
-            List {
-                ForEach(items) { item in
-                    NavigationLink {
-                        Text("Item at \(item.timestamp!, formatter: itemFormatter)")
-                    } label: {
-                        Text(item.timestamp!, formatter: itemFormatter)
+        VStack{
+            HStack{
+                VStack{
+                    Text("Username")
+                        .frame(width: 100, height: 35,alignment: .leading)
+                    Text("Email")
+                        .frame(width: 100, height: 35,alignment: .leading)
+                    Text("Password")
+                        .frame(width: 100, height: 35,alignment: .leading)
+                }
+                .padding()
+                VStack{
+                    TextField("Ingresa tu nombre de usuario", text: $username)
+                        .textFieldStyle(.roundedBorder)
+                    TextField("Ingresa tu email", text: $email)
+                        .textFieldStyle(.roundedBorder)
+                    TextField("Ingresa tu password", text: $password)
+                        .textFieldStyle(.roundedBorder)
+                }
+                .padding()
+            }
+            .padding()
+            HStack{
+                Button{
+                    if username != "" && email != "" && password != "" {
+                        print("Saving...")
+                        addUser(name: username, email: email, pass: password)
                     }
+                } label: {
+                    Text("Save")
+                        .frame(width: 100,height: 34,alignment: .center)
+                        .font(.subheadline)
+                        .foregroundColor(.white)
+                        .background(.blue)
+                        .cornerRadius(10)
                 }
-                .onDelete(perform: deleteItems)
-            }
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    EditButton()
-                }
-                ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
+                Button{
+                    if let id = self.id {
+                        print("Updating...")
+                        updateUser(id: id, name: self.username, email: self.email, pass: self.password)
                     }
+                } label: {
+                    Text("Update")
+                        .frame(width: 100,height: 34,alignment: .center)
+                        .font(.subheadline)
+                        .foregroundColor(.white)
+                        .background(.blue)
+                        .cornerRadius(10)
                 }
             }
-            Text("Select an item")
-        }
-    }
-
-    private func addItem() {
-        withAnimation {
-            let newItem = Item(context: viewContext)
-            newItem.timestamp = Date()
-
-            do {
-                try viewContext.save()
-            } catch {
-                // Replace this implementation with code to handle the error appropriately.
-                // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
-                let nsError = error as NSError
-                fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
+            .padding()
+            NavigationView{
+                List{
+                    ForEach(users){
+                        user in
+                        Text(user.username!)
+                            .onTapGesture{
+                                id = user.id
+                                username = user.username!
+                                email = user.email!
+                                password = user.password!
+                            }
+                    }
+                    .onDelete(perform: deleteUser)
+                }
             }
         }
     }
-
-    private func deleteItems(offsets: IndexSet) {
-        withAnimation {
-            offsets.map { items[$0] }.forEach(viewContext.delete)
-
-            do {
-                try viewContext.save()
-            } catch {
-                // Replace this implementation with code to handle the error appropriately.
-                // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
-                let nsError = error as NSError
-                fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
-            }
+    
+    private func addUser(name: String, email: String, pass: String){
+        let user = User(context: viewContext)
+        
+        user.id = UUID()
+        user.username = self.username
+        user.email = self.email
+        user.password = self.password
+        
+        do{
+            try viewContext.save()
+        }catch{
+            print("Error: \(error)")
         }
     }
+    
+    private func updateUser(id: UUID, name: String, email: String, pass: String){
+        let fetchRequest: NSFetchRequest<User> = User.fetchRequest()
+        fetchRequest.predicate = NSPredicate(format: "id == %@", id as CVarArg)
+        
+        do {
+            let results = try viewContext.fetch(fetchRequest)
+            if let userResult = results.first {
+                userResult.username = self.username
+                userResult.email = self.email
+                userResult.password = self.password
+                try viewContext.save()
+            }
+        }catch{
+            print("Error: \(error)")
+        }
+    }
+    
+    private func deleteUser(offset: IndexSet){
+        offset.map {users[$0]}.forEach(viewContext.delete)
+        do {
+            try viewContext.save()
+        }catch{
+            print("Error deleting: \(error)")
+        }
+    }
+    
 }
-
-private let itemFormatter: DateFormatter = {
-    let formatter = DateFormatter()
-    formatter.dateStyle = .short
-    formatter.timeStyle = .medium
-    return formatter
-}()
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
