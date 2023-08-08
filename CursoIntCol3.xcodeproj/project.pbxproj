@@ -48,9 +48,11 @@
 		CD7B9B7D2A82861000D7953B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7B9B7B2A82861000D7953B /* Main.storyboard */; };
 		CD7B9B7F2A82861200D7953B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7B9B7E2A82861200D7953B /* Assets.xcassets */; };
 		CD7B9B822A82861200D7953B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7B9B802A82861200D7953B /* LaunchScreen.storyboard */; };
-		CD7B9B8B2A82883A00D7953B /* MyDynamicLibraryColombia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD7B9B872A82865D00D7953B /* MyDynamicLibraryColombia.framework */; };
-		CD7B9B8C2A82883A00D7953B /* MyDynamicLibraryColombia.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CD7B9B872A82865D00D7953B /* MyDynamicLibraryColombia.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CD7B9B8F2A828D9000D7953B /* NOTES in Resources */ = {isa = PBXBuildFile; fileRef = CD7B9B8E2A828D9000D7953B /* NOTES */; };
+		CD7B9B912A8293AE00D7953B /* MyDynamicFramework.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD7B9B902A8293AE00D7953B /* MyDynamicFramework.xcframework */; };
+		CD7B9B922A8293AE00D7953B /* MyDynamicFramework.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CD7B9B902A8293AE00D7953B /* MyDynamicFramework.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CD7B9BB02A8298F100D7953B /* AppConfig.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CD7B9BAF2A8298F100D7953B /* AppConfig.xcconfig */; };
+		CD7B9BB22A82A25800D7953B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7B9BB12A82A25800D7953B /* LaunchScreen.storyboard */; };
 		CDB15B982A716DB30065D38E /* VCUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB15B972A716DB30065D38E /* VCUsers.swift */; };
 		CDB15B9A2A716FC80065D38E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB15B992A716FC80065D38E /* User.swift */; };
 		CDD5F9302A77DC1E008C95CD /* CLSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD5F92F2A77DC1E008C95CD /* CLSwiftUIApp.swift */; };
@@ -126,13 +128,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		CD7B9B8D2A82883A00D7953B /* Embed Frameworks */ = {
+		CD7B9B932A8293AE00D7953B /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				CD7B9B8C2A82883A00D7953B /* MyDynamicLibraryColombia.framework in Embed Frameworks */,
+				CD7B9B922A8293AE00D7953B /* MyDynamicFramework.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,6 +195,9 @@
 		CD7B9B832A82861200D7953B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD7B9B872A82865D00D7953B /* MyDynamicLibraryColombia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MyDynamicLibraryColombia.framework; path = MyDynamicLibImplementation/MyDynamicLibraryColombia.framework; sourceTree = "<group>"; };
 		CD7B9B8E2A828D9000D7953B /* NOTES */ = {isa = PBXFileReference; lastKnownFileType = text; path = NOTES; sourceTree = "<group>"; };
+		CD7B9B902A8293AE00D7953B /* MyDynamicFramework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MyDynamicFramework.xcframework; path = MyDynamicLibraryColombia/build/MyDynamicFramework.xcframework; sourceTree = "<group>"; };
+		CD7B9BAF2A8298F100D7953B /* AppConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = AppConfig.xcconfig; sourceTree = "<group>"; };
+		CD7B9BB12A82A25800D7953B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDB15B972A716DB30065D38E /* VCUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCUsers.swift; sourceTree = "<group>"; };
 		CDB15B992A716FC80065D38E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		CDD5F92D2A77DC1E008C95CD /* CLSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -326,7 +331,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD7B9B8B2A82883A00D7953B /* MyDynamicLibraryColombia.framework in Frameworks */,
+				CD7B9B912A8293AE00D7953B /* MyDynamicFramework.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,6 +498,7 @@
 		CD7B9B2F2A8281B500D7953B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CD7B9B902A8293AE00D7953B /* MyDynamicFramework.xcframework */,
 				CD7B9B872A82865D00D7953B /* MyDynamicLibraryColombia.framework */,
 				CD7B9B302A8281B500D7953B /* libMyStaticLibraryColombia.a */,
 			);
@@ -616,6 +622,7 @@
 		CDFF1D242A680E540064BDCE = {
 			isa = PBXGroup;
 			children = (
+				CD7B9BAF2A8298F100D7953B /* AppConfig.xcconfig */,
 				CD7B9B8E2A828D9000D7953B /* NOTES */,
 				CDFF1D2F2A680E540064BDCE /* CursoIntCol3 */,
 				CDFF1DA12A6ACD030064BDCE /* CompartirContenido */,
@@ -706,6 +713,7 @@
 				CDFF1DFF2A6ECAE10064BDCE /* TipCalculatorModel.swift */,
 				CDFF1DF72A6EC7310064BDCE /* Assets.xcassets */,
 				CDFF1DF92A6EC7310064BDCE /* Preview Content */,
+				CD7B9BB12A82A25800D7953B /* LaunchScreen.storyboard */,
 			);
 			path = TipCalculator;
 			sourceTree = "<group>";
@@ -832,7 +840,7 @@
 				CD7B9B6F2A82861000D7953B /* Sources */,
 				CD7B9B702A82861000D7953B /* Frameworks */,
 				CD7B9B712A82861000D7953B /* Resources */,
-				CD7B9B8D2A82883A00D7953B /* Embed Frameworks */,
+				CD7B9B932A8293AE00D7953B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1166,6 +1174,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD7B9BB02A8298F100D7953B /* AppConfig.xcconfig in Resources */,
 				CD7B9B822A82861200D7953B /* LaunchScreen.storyboard in Resources */,
 				CD7B9B7F2A82861200D7953B /* Assets.xcassets in Resources */,
 				CD7B9B7D2A82861000D7953B /* Main.storyboard in Resources */,
@@ -1257,6 +1266,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD7B9BB22A82A25800D7953B /* LaunchScreen.storyboard in Resources */,
 				CDFF1DFB2A6EC7310064BDCE /* Preview Assets.xcassets in Resources */,
 				CDFF1DF82A6EC7310064BDCE /* Assets.xcassets in Resources */,
 			);
@@ -1930,6 +1940,7 @@
 		};
 		CD7B9B852A82861200D7953B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD7B9BAF2A8298F100D7953B /* AppConfig.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1962,6 +1973,7 @@
 		};
 		CD7B9B862A82861200D7953B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD7B9BAF2A8298F100D7953B /* AppConfig.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -2235,8 +2247,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2263,8 +2274,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2300,9 +2310,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jslopez.SQLiteSPM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -2328,9 +2341,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jslopez.SQLiteSPM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -2580,6 +2596,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2609,6 +2626,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

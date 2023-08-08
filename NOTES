@@ -7,3 +7,17 @@ https://developer.apple.com/icloud/cloudkit/
 
 // Crear XCFrameworks
 https://developer.apple.com/documentation/xcode/creating-a-multi-platform-binary-framework-bundle?changes=_9
+
+// XCFrameworks
+
+#Creacion de xcarchive de arc iOS.
+xcodebuild archive -scheme MyDynamicLibraryColombia -configuration Release -destination 'generic/platform=iOS' -archivePath './build/MyDynamicFramework.framework-iphoneos.xcarchive'  SKIP_INSTALL=NO  BUILD_LIBRARIES_FOR_DISTRIBUTION=YES
+
+#Creacion de xcarchive de arc iOS Simulator.
+xcodebuild archive -scheme MyDynamicLibraryColombia -configuration Release -destination 'generic/platform=iOS Simulator' -archivePath './build/MyDynamicFramework.framework-iphonesimulator.xcarchive'  SKIP_INSTALL=NO  BUILD_LIBRARIES_FOR_DISTRIBUTION=YES
+
+#Creacion de xcarchive de arc macOS.
+xcodebuild archive -scheme MyDynamicLibraryColombia -configuration Release -destination 'platform=macOS,arch=x86_64,variant=Mac Catalyst' -archivePath './build/MyDynamicFramework.framework-catalyst.xcarchive'  SKIP_INSTALL=NO  BUILD_LIBRARIES_FOR_DISTRIBUTION=YES
+
+#Creacion de xcframework con las 3 arch.
+xcodebuild -create-xcframework -allow-internal-distribution -framework './build/MyDynamicFramework.framework-iphonesimulator.xcarchive/Products/Library/Frameworks/MyDynamicLibraryColombia.framework' -framework './build/MyDynamicFramework.framework-iphoneos.xcarchive/Products/Library/Frameworks/MyDynamicLibraryColombia.framework' -framework './build/MyDynamicFramework.framework-catalyst.xcarchive/Products/Library/Frameworks/MyDynamicLibraryColombia.framework' -output './build/MyDynamicFramework.xcframework'

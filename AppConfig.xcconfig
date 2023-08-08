@@ -1,0 +1,30 @@
+//
+//  AppConfig.xcconfig
+//  MyDynamicLibImplementation
+//
+//  Created by Salvador Lopez on 08/08/23.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+//DISABLE IPAD
+ENABLE_IPHONE = YES
+ENABLE_IPAD = NO
+
+// VERSION DEL TARGET
+IPHONEOS_DEPLOYMENT_TARGET = 14.0
+
+//VALID ARCHS IPAD
+ONLY_ACTIVE_ARCH=YES_ARCHS_STANDARD
+VALID_ARCHS= arm64 armv7....
+
+//#if os(iOS)
+//...
+//...
+//#endif
+
+//#if DEBUG
+//...
+//...
+//#endif
