@@ -67,6 +67,15 @@
 		CDE491952A7D470A0061BE2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE491932A7D470A0061BE2F /* Main.storyboard */; };
 		CDE491972A7D470C0061BE2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE491962A7D470C0061BE2F /* Assets.xcassets */; };
 		CDE4919A2A7D470C0061BE2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE491982A7D470C0061BE2F /* LaunchScreen.storyboard */; };
+		CDE491A62A7D59370061BE2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE491A52A7D59370061BE2F /* AppDelegate.swift */; };
+		CDE491A82A7D59370061BE2F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE491A72A7D59370061BE2F /* SceneDelegate.swift */; };
+		CDE491AA2A7D59370061BE2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE491A92A7D59370061BE2F /* ViewController.swift */; };
+		CDE491AD2A7D59370061BE2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE491AB2A7D59370061BE2F /* Main.storyboard */; };
+		CDE491AF2A7D59390061BE2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE491AE2A7D59390061BE2F /* Assets.xcassets */; };
+		CDE491B22A7D59390061BE2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE491B02A7D59390061BE2F /* LaunchScreen.storyboard */; };
+		CDE491B92A7D59610061BE2F /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = CDE491B82A7D59610061BE2F /* SQLite */; };
+		CDE491BB2A7D5B230061BE2F /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE491BA2A7D5B230061BE2F /* Task.swift */; };
+		CDE491BD2A7D5B900061BE2F /* TaskDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE491BC2A7D5B900061BE2F /* TaskDataStore.swift */; };
 		CDFF1D312A680E540064BDCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFF1D302A680E540064BDCE /* AppDelegate.swift */; };
 		CDFF1D332A680E540064BDCE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFF1D322A680E540064BDCE /* SceneDelegate.swift */; };
 		CDFF1D352A680E540064BDCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFF1D342A680E540064BDCE /* ViewController.swift */; };
@@ -175,6 +184,16 @@
 		CDE491962A7D470C0061BE2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDE491992A7D470C0061BE2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDE4919B2A7D470C0061BE2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDE491A32A7D59360061BE2F /* SQLiteSPM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLiteSPM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE491A52A7D59370061BE2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDE491A72A7D59370061BE2F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CDE491A92A7D59370061BE2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDE491AC2A7D59370061BE2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDE491AE2A7D59390061BE2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDE491B12A7D59390061BE2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDE491B32A7D59390061BE2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDE491BA2A7D5B230061BE2F /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		CDE491BC2A7D5B900061BE2F /* TaskDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDataStore.swift; sourceTree = "<group>"; };
 		CDFF1D2D2A680E540064BDCE /* CursoIntCol3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CursoIntCol3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDFF1D302A680E540064BDCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDFF1D322A680E540064BDCE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -278,6 +297,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE491A02A7D59360061BE2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE491B92A7D59610061BE2F /* SQLite in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,6 +495,22 @@
 			path = KeyChainSB;
 			sourceTree = "<group>";
 		};
+		CDE491A42A7D59370061BE2F /* SQLiteSPM */ = {
+			isa = PBXGroup;
+			children = (
+				CDE491A52A7D59370061BE2F /* AppDelegate.swift */,
+				CDE491A72A7D59370061BE2F /* SceneDelegate.swift */,
+				CDE491A92A7D59370061BE2F /* ViewController.swift */,
+				CDE491BA2A7D5B230061BE2F /* Task.swift */,
+				CDE491BC2A7D5B900061BE2F /* TaskDataStore.swift */,
+				CDE491AB2A7D59370061BE2F /* Main.storyboard */,
+				CDE491AE2A7D59390061BE2F /* Assets.xcassets */,
+				CDE491B02A7D59390061BE2F /* LaunchScreen.storyboard */,
+				CDE491B32A7D59390061BE2F /* Info.plist */,
+			);
+			path = SQLiteSPM;
+			sourceTree = "<group>";
+		};
 		CDFF1D242A680E540064BDCE = {
 			isa = PBXGroup;
 			children = (
@@ -484,6 +527,7 @@
 				CD2856F82A7AAB9400A301F6 /* CoreDataSB */,
 				CDE491752A7D2BBC0061BE2F /* CoreDataSwiftUI */,
 				CDE4918C2A7D470A0061BE2F /* KeyChainSB */,
+				CDE491A42A7D59370061BE2F /* SQLiteSPM */,
 				CDFF1D2E2A680E540064BDCE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -504,6 +548,7 @@
 				CD2856F72A7AAB9400A301F6 /* CoreDataSB.app */,
 				CDE491742A7D2BBC0061BE2F /* CoreDataSwiftUI.app */,
 				CDE4918B2A7D470A0061BE2F /* KeyChainSB.app */,
+				CDE491A32A7D59360061BE2F /* SQLiteSPM.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -740,6 +785,26 @@
 			productReference = CDE4918B2A7D470A0061BE2F /* KeyChainSB.app */;
 			productType = "com.apple.product-type.application";
 		};
+		CDE491A22A7D59360061BE2F /* SQLiteSPM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDE491B42A7D59390061BE2F /* Build configuration list for PBXNativeTarget "SQLiteSPM" */;
+			buildPhases = (
+				CDE4919F2A7D59360061BE2F /* Sources */,
+				CDE491A02A7D59360061BE2F /* Frameworks */,
+				CDE491A12A7D59360061BE2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQLiteSPM;
+			packageProductDependencies = (
+				CDE491B82A7D59610061BE2F /* SQLite */,
+			);
+			productName = SQLiteSPM;
+			productReference = CDE491A32A7D59360061BE2F /* SQLiteSPM.app */;
+			productType = "com.apple.product-type.application";
+		};
 		CDFF1D2C2A680E540064BDCE /* CursoIntCol3 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CDFF1D412A680E550064BDCE /* Build configuration list for PBXNativeTarget "CursoIntCol3" */;
@@ -845,6 +910,9 @@
 					CDE4918A2A7D470A0061BE2F = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
+					CDE491A22A7D59360061BE2F = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
 					CDFF1D2C2A680E540064BDCE = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
@@ -868,6 +936,9 @@
 				Base,
 			);
 			mainGroup = CDFF1D242A680E540064BDCE;
+			packageReferences = (
+				CDE491B72A7D59610061BE2F /* XCRemoteSwiftPackageReference "SQLite" */,
+			);
 			productRefGroup = CDFF1D2E2A680E540064BDCE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -885,6 +956,7 @@
 				CD2856F62A7AAB9400A301F6 /* CoreDataSB */,
 				CDE491732A7D2BBC0061BE2F /* CoreDataSwiftUI */,
 				CDE4918A2A7D470A0061BE2F /* KeyChainSB */,
+				CDE491A22A7D59360061BE2F /* SQLiteSPM */,
 			);
 		};
 /* End PBXProject section */
@@ -974,6 +1046,16 @@
 				CDE4919A2A7D470C0061BE2F /* LaunchScreen.storyboard in Resources */,
 				CDE491972A7D470C0061BE2F /* Assets.xcassets in Resources */,
 				CDE491952A7D470A0061BE2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE491A12A7D59360061BE2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE491B22A7D59390061BE2F /* LaunchScreen.storyboard in Resources */,
+				CDE491AF2A7D59390061BE2F /* Assets.xcassets in Resources */,
+				CDE491AD2A7D59370061BE2F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1116,6 +1198,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CDE4919F2A7D59360061BE2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE491BB2A7D5B230061BE2F /* Task.swift in Sources */,
+				CDE491AA2A7D59370061BE2F /* ViewController.swift in Sources */,
+				CDE491A62A7D59370061BE2F /* AppDelegate.swift in Sources */,
+				CDE491BD2A7D5B900061BE2F /* TaskDataStore.swift in Sources */,
+				CDE491A82A7D59370061BE2F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CDFF1D292A680E540064BDCE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1245,6 +1339,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				CDE491992A7D470C0061BE2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CDE491AB2A7D59370061BE2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDE491AC2A7D59370061BE2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDE491B02A7D59390061BE2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDE491B12A7D59390061BE2F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1814,6 +1924,62 @@
 			};
 			name = Release;
 		};
+		CDE491B52A7D59390061BE2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FNTB26538C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SQLiteSPM/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jslopez.SQLiteSPM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDE491B62A7D59390061BE2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FNTB26538C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SQLiteSPM/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jslopez.SQLiteSPM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		CDFF1D3F2A680E550064BDCE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2244,6 +2410,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		CDE491B42A7D59390061BE2F /* Build configuration list for PBXNativeTarget "SQLiteSPM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE491B52A7D59390061BE2F /* Debug */,
+				CDE491B62A7D59390061BE2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CDFF1D282A680E540064BDCE /* Build configuration list for PBXProject "CursoIntCol3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2290,6 +2465,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CDE491B72A7D59610061BE2F /* XCRemoteSwiftPackageReference "SQLite" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stephencelis/SQLite.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.14.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CDE491B82A7D59610061BE2F /* SQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDE491B72A7D59610061BE2F /* XCRemoteSwiftPackageReference "SQLite" */;
+			productName = SQLite;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		CD2857302A7AB01E00A301F6 /* dataModelUsuarios.xcdatamodeld */ = {
