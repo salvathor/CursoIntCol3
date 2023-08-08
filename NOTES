@@ -1,0 +1,9 @@
+
+// Ejemplo Core Data con iCloud
+https://github.com/apple/sample-cloudkit-coredatasync
+
+// CloudKit para archivo BD (SQLITE).
+https://developer.apple.com/icloud/cloudkit/
+
+// Crear XCFrameworks
+https://developer.apple.com/documentation/xcode/creating-a-multi-platform-binary-framework-bundle?changes=_9

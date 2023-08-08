@@ -35,6 +35,22 @@
 		CD75E6852A73F54400B35D26 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD75E6842A73F54400B35D26 /* WebViewController.swift */; };
 		CD75E6872A73FA3100B35D26 /* Practica4 in Resources */ = {isa = PBXBuildFile; fileRef = CD75E6862A73FA3100B35D26 /* Practica4 */; };
 		CD75E68B2A740EFE00B35D26 /* TryRestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD75E68A2A740EFE00B35D26 /* TryRestViewController.swift */; };
+		CD7B9B1E2A8280C100D7953B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7B9B1D2A8280C100D7953B /* AppDelegate.swift */; };
+		CD7B9B202A8280C100D7953B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7B9B1F2A8280C100D7953B /* SceneDelegate.swift */; };
+		CD7B9B222A8280C100D7953B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7B9B212A8280C100D7953B /* ViewController.swift */; };
+		CD7B9B252A8280C100D7953B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7B9B232A8280C100D7953B /* Main.storyboard */; };
+		CD7B9B272A8280C300D7953B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7B9B262A8280C300D7953B /* Assets.xcassets */; };
+		CD7B9B2A2A8280C300D7953B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7B9B282A8280C300D7953B /* LaunchScreen.storyboard */; };
+		CD7B9B462A8284C700D7953B /* libMyStaticLibraryColombia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD7B9B302A8281B500D7953B /* libMyStaticLibraryColombia.a */; };
+		CD7B9B762A82861000D7953B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7B9B752A82861000D7953B /* AppDelegate.swift */; };
+		CD7B9B782A82861000D7953B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7B9B772A82861000D7953B /* SceneDelegate.swift */; };
+		CD7B9B7A2A82861000D7953B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7B9B792A82861000D7953B /* ViewController.swift */; };
+		CD7B9B7D2A82861000D7953B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7B9B7B2A82861000D7953B /* Main.storyboard */; };
+		CD7B9B7F2A82861200D7953B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7B9B7E2A82861200D7953B /* Assets.xcassets */; };
+		CD7B9B822A82861200D7953B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7B9B802A82861200D7953B /* LaunchScreen.storyboard */; };
+		CD7B9B8B2A82883A00D7953B /* MyDynamicLibraryColombia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD7B9B872A82865D00D7953B /* MyDynamicLibraryColombia.framework */; };
+		CD7B9B8C2A82883A00D7953B /* MyDynamicLibraryColombia.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CD7B9B872A82865D00D7953B /* MyDynamicLibraryColombia.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CD7B9B8F2A828D9000D7953B /* NOTES in Resources */ = {isa = PBXBuildFile; fileRef = CD7B9B8E2A828D9000D7953B /* NOTES */; };
 		CDB15B982A716DB30065D38E /* VCUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB15B972A716DB30065D38E /* VCUsers.swift */; };
 		CDB15B9A2A716FC80065D38E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB15B992A716FC80065D38E /* User.swift */; };
 		CDD5F9302A77DC1E008C95CD /* CLSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD5F92F2A77DC1E008C95CD /* CLSwiftUIApp.swift */; };
@@ -109,6 +125,20 @@
 		CDFF1E142A6ED52C0064BDCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDFF1E122A6ED52C0064BDCE /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		CD7B9B8D2A82883A00D7953B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CD7B9B8C2A82883A00D7953B /* MyDynamicLibraryColombia.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		CD2856CD2A7A9A6E00A301F6 /* UserDefaultsSB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserDefaultsSB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2856CF2A7A9A6E00A301F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -144,6 +174,25 @@
 		CD75E6842A73F54400B35D26 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		CD75E6862A73FA3100B35D26 /* Practica4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Practica4; sourceTree = "<group>"; };
 		CD75E68A2A740EFE00B35D26 /* TryRestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryRestViewController.swift; sourceTree = "<group>"; };
+		CD7B9B1B2A8280C100D7953B /* MyStaticLibImplementation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyStaticLibImplementation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD7B9B1D2A8280C100D7953B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD7B9B1F2A8280C100D7953B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CD7B9B212A8280C100D7953B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD7B9B242A8280C100D7953B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD7B9B262A8280C300D7953B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD7B9B292A8280C300D7953B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD7B9B2B2A8280C300D7953B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD7B9B302A8281B500D7953B /* libMyStaticLibraryColombia.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMyStaticLibraryColombia.a; path = MyStaticLibImplementation/MyStaticLib/libMyStaticLibraryColombia.a; sourceTree = "<group>"; };
+		CD7B9B732A82861000D7953B /* MyDynamicLibImplementation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDynamicLibImplementation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD7B9B752A82861000D7953B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD7B9B772A82861000D7953B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CD7B9B792A82861000D7953B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD7B9B7C2A82861000D7953B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD7B9B7E2A82861200D7953B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD7B9B812A82861200D7953B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD7B9B832A82861200D7953B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD7B9B872A82865D00D7953B /* MyDynamicLibraryColombia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MyDynamicLibraryColombia.framework; path = MyDynamicLibImplementation/MyDynamicLibraryColombia.framework; sourceTree = "<group>"; };
+		CD7B9B8E2A828D9000D7953B /* NOTES */ = {isa = PBXFileReference; lastKnownFileType = text; path = NOTES; sourceTree = "<group>"; };
 		CDB15B972A716DB30065D38E /* VCUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCUsers.swift; sourceTree = "<group>"; };
 		CDB15B992A716FC80065D38E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		CDD5F92D2A77DC1E008C95CD /* CLSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -262,6 +311,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7B9B182A8280C100D7953B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7B9B462A8284C700D7953B /* libMyStaticLibraryColombia.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7B9B702A82861000D7953B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7B9B8B2A82883A00D7953B /* MyDynamicLibraryColombia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +476,43 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		CD7B9B1C2A8280C100D7953B /* MyStaticLibImplementation */ = {
+			isa = PBXGroup;
+			children = (
+				CD7B9B1D2A8280C100D7953B /* AppDelegate.swift */,
+				CD7B9B1F2A8280C100D7953B /* SceneDelegate.swift */,
+				CD7B9B212A8280C100D7953B /* ViewController.swift */,
+				CD7B9B232A8280C100D7953B /* Main.storyboard */,
+				CD7B9B262A8280C300D7953B /* Assets.xcassets */,
+				CD7B9B282A8280C300D7953B /* LaunchScreen.storyboard */,
+				CD7B9B2B2A8280C300D7953B /* Info.plist */,
+			);
+			path = MyStaticLibImplementation;
+			sourceTree = "<group>";
+		};
+		CD7B9B2F2A8281B500D7953B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD7B9B872A82865D00D7953B /* MyDynamicLibraryColombia.framework */,
+				CD7B9B302A8281B500D7953B /* libMyStaticLibraryColombia.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD7B9B742A82861000D7953B /* MyDynamicLibImplementation */ = {
+			isa = PBXGroup;
+			children = (
+				CD7B9B752A82861000D7953B /* AppDelegate.swift */,
+				CD7B9B772A82861000D7953B /* SceneDelegate.swift */,
+				CD7B9B792A82861000D7953B /* ViewController.swift */,
+				CD7B9B7B2A82861000D7953B /* Main.storyboard */,
+				CD7B9B7E2A82861200D7953B /* Assets.xcassets */,
+				CD7B9B802A82861200D7953B /* LaunchScreen.storyboard */,
+				CD7B9B832A82861200D7953B /* Info.plist */,
+			);
+			path = MyDynamicLibImplementation;
+			sourceTree = "<group>";
+		};
 		CDD5F92E2A77DC1E008C95CD /* CLSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
@@ -514,6 +616,7 @@
 		CDFF1D242A680E540064BDCE = {
 			isa = PBXGroup;
 			children = (
+				CD7B9B8E2A828D9000D7953B /* NOTES */,
 				CDFF1D2F2A680E540064BDCE /* CursoIntCol3 */,
 				CDFF1DA12A6ACD030064BDCE /* CompartirContenido */,
 				CDFF1DF22A6EC72F0064BDCE /* TipCalculator */,
@@ -528,7 +631,10 @@
 				CDE491752A7D2BBC0061BE2F /* CoreDataSwiftUI */,
 				CDE4918C2A7D470A0061BE2F /* KeyChainSB */,
 				CDE491A42A7D59370061BE2F /* SQLiteSPM */,
+				CD7B9B1C2A8280C100D7953B /* MyStaticLibImplementation */,
+				CD7B9B742A82861000D7953B /* MyDynamicLibImplementation */,
 				CDFF1D2E2A680E540064BDCE /* Products */,
+				CD7B9B2F2A8281B500D7953B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -549,6 +655,8 @@
 				CDE491742A7D2BBC0061BE2F /* CoreDataSwiftUI.app */,
 				CDE4918B2A7D470A0061BE2F /* KeyChainSB.app */,
 				CDE491A32A7D59360061BE2F /* SQLiteSPM.app */,
+				CD7B9B1B2A8280C100D7953B /* MyStaticLibImplementation.app */,
+				CD7B9B732A82861000D7953B /* MyDynamicLibImplementation.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -698,6 +806,41 @@
 			name = SwiftUIConsumoREST;
 			productName = SwiftUIConsumoREST;
 			productReference = CD3422322A73E8EE00563173 /* SwiftUIConsumoREST.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD7B9B1A2A8280C100D7953B /* MyStaticLibImplementation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD7B9B2E2A8280C300D7953B /* Build configuration list for PBXNativeTarget "MyStaticLibImplementation" */;
+			buildPhases = (
+				CD7B9B172A8280C100D7953B /* Sources */,
+				CD7B9B182A8280C100D7953B /* Frameworks */,
+				CD7B9B192A8280C100D7953B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyStaticLibImplementation;
+			productName = MyStaticLibImplementation;
+			productReference = CD7B9B1B2A8280C100D7953B /* MyStaticLibImplementation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD7B9B722A82861000D7953B /* MyDynamicLibImplementation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD7B9B842A82861200D7953B /* Build configuration list for PBXNativeTarget "MyDynamicLibImplementation" */;
+			buildPhases = (
+				CD7B9B6F2A82861000D7953B /* Sources */,
+				CD7B9B702A82861000D7953B /* Frameworks */,
+				CD7B9B712A82861000D7953B /* Resources */,
+				CD7B9B8D2A82883A00D7953B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyDynamicLibImplementation;
+			productName = MyDynamicLibImplementation;
+			productReference = CD7B9B732A82861000D7953B /* MyDynamicLibImplementation.app */;
 			productType = "com.apple.product-type.application";
 		};
 		CDD5F92C2A77DC1E008C95CD /* CLSwiftUI */ = {
@@ -895,6 +1038,12 @@
 					CD3422312A73E8EE00563173 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
+					CD7B9B1A2A8280C100D7953B = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					CD7B9B722A82861000D7953B = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
 					CDD5F92C2A77DC1E008C95CD = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
@@ -957,6 +1106,8 @@
 				CDE491732A7D2BBC0061BE2F /* CoreDataSwiftUI */,
 				CDE4918A2A7D470A0061BE2F /* KeyChainSB */,
 				CDE491A22A7D59360061BE2F /* SQLiteSPM */,
+				CD7B9B1A2A8280C100D7953B /* MyStaticLibImplementation */,
+				CD7B9B722A82861000D7953B /* MyDynamicLibImplementation */,
 			);
 		};
 /* End PBXProject section */
@@ -998,6 +1149,26 @@
 				CD75E6872A73FA3100B35D26 /* Practica4 in Resources */,
 				CD34223C2A73E8F100563173 /* Preview Assets.xcassets in Resources */,
 				CD3422392A73E8F100563173 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7B9B192A8280C100D7953B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7B9B2A2A8280C300D7953B /* LaunchScreen.storyboard in Resources */,
+				CD7B9B272A8280C300D7953B /* Assets.xcassets in Resources */,
+				CD7B9B252A8280C100D7953B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7B9B712A82861000D7953B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7B9B822A82861200D7953B /* LaunchScreen.storyboard in Resources */,
+				CD7B9B7F2A82861200D7953B /* Assets.xcassets in Resources */,
+				CD7B9B7D2A82861000D7953B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1064,6 +1235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDFF1D932A6AAC830064BDCE /* ShareBtn.xib in Resources */,
+				CD7B9B8F2A828D9000D7953B /* NOTES in Resources */,
 				CDFF1D3D2A680E550064BDCE /* LaunchScreen.storyboard in Resources */,
 				CDFF1D3A2A680E550064BDCE /* Assets.xcassets in Resources */,
 				CDFF1D382A680E540064BDCE /* Main.storyboard in Resources */,
@@ -1143,6 +1315,26 @@
 				CD3422412A73E99600563173 /* DataManager.swift in Sources */,
 				CD3422452A73EDD600563173 /* DetailUserView.swift in Sources */,
 				CD3422352A73E8EF00563173 /* SwiftUIConsumoRESTApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7B9B172A8280C100D7953B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7B9B222A8280C100D7953B /* ViewController.swift in Sources */,
+				CD7B9B1E2A8280C100D7953B /* AppDelegate.swift in Sources */,
+				CD7B9B202A8280C100D7953B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7B9B6F2A82861000D7953B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7B9B7A2A82861000D7953B /* ViewController.swift in Sources */,
+				CD7B9B762A82861000D7953B /* AppDelegate.swift in Sources */,
+				CD7B9B782A82861000D7953B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1291,6 +1483,38 @@
 			isa = PBXVariantGroup;
 			children = (
 				CD2857052A7AAB9600A301F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CD7B9B232A8280C100D7953B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD7B9B242A8280C100D7953B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD7B9B282A8280C300D7953B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD7B9B292A8280C300D7953B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CD7B9B7B2A82861000D7953B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD7B9B7C2A82861000D7953B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD7B9B802A82861200D7953B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD7B9B812A82861200D7953B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1631,6 +1855,136 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jslopez.SwiftUIConsumoREST;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD7B9B2C2A8280C300D7953B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FNTB26538C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyStaticLibImplementation/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyStaticLibImplementation/MyStaticLib",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jslopez.MyStaticLibImplementation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/MyStaticLibImplementation/MyStaticLib";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD7B9B2D2A8280C300D7953B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FNTB26538C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyStaticLibImplementation/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyStaticLibImplementation/MyStaticLib",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jslopez.MyStaticLibImplementation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/MyStaticLibImplementation/MyStaticLib";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD7B9B852A82861200D7953B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FNTB26538C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyDynamicLibImplementation",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyDynamicLibImplementation/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jslopez.MyDynamicLibImplementation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD7B9B862A82861200D7953B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FNTB26538C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyDynamicLibImplementation",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyDynamicLibImplementation/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jslopez.MyDynamicLibImplementation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -2361,6 +2715,24 @@
 			buildConfigurations = (
 				CD34223D2A73E8F100563173 /* Debug */,
 				CD34223E2A73E8F100563173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD7B9B2E2A8280C300D7953B /* Build configuration list for PBXNativeTarget "MyStaticLibImplementation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7B9B2C2A8280C300D7953B /* Debug */,
+				CD7B9B2D2A8280C300D7953B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD7B9B842A82861200D7953B /* Build configuration list for PBXNativeTarget "MyDynamicLibImplementation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7B9B852A82861200D7953B /* Debug */,
+				CD7B9B862A82861200D7953B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
